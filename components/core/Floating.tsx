@@ -8,7 +8,7 @@ export default function Floating() {
 
     return (
         <div className={'z-10 fixed right-8 bottom-6'}>
-            <FaSquareWhatsapp onClick={() => window.open('https://wa.me/1128390704')} className={'text-green-500 text-4xl cursor-pointer'} />
+            <FaSquareWhatsapp onClick={() => window.open('https://wa.me/11283903206')} className={'text-green-500 text-4xl cursor-pointer'} />
         </div>
     )
 }

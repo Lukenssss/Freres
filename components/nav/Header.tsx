@@ -37,7 +37,9 @@ export default function Header() {
 
     return (
         <div className={'w-screen relative h-16 bg-white border-b content-center items-center align-middle flex flex-row justify-between'}>
-            <p className={'ml-7'} style={robotoBold.style}>FRÈRES</p>
+            <p onClick={() => {
+                router.push('/')
+            }} className={'cursor-pointer ml-7'} style={robotoBold.style}>FRÈRES</p>
 
             <div className={'mr-7 flex-row gap-5 flex'}>
                 <Search />
